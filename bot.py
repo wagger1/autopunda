@@ -55,7 +55,7 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♻️ Join Movie Channel", url="https://t.me/C1nemaCorner"),
+                        InlineKeyboardButton("♻️ Join For Movies", url="https://t.me/C1nemaCorner"),
                         InlineKeyboardButton("💬 Owner", url="https://t.me/Hyper740")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/kwicapprovalbot?startgroup")
@@ -63,7 +63,7 @@ async def op(_, m :Message):
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://te.legra.ph/file/8dfe7256883cbc0190478.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @kwicbotupdates__**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+            await m.reply_photo("https://imgur.com/9SL3TeT", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @kwicbotupdates__**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
                 [
