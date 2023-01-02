@@ -58,7 +58,7 @@ async def op(_, m :Message):
                         InlineKeyboardButton("♻️ Join For Movies", url="https://t.me/C1nemaCorner"),
                         InlineKeyboardButton("💬 Owner", url="https://t.me/Hyper740")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/kwicapprovalbot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/RequestAutoApprovalbot?startgroup")
                     ]
                 ]
             )
