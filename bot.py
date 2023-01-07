@@ -58,12 +58,12 @@ async def op(_, m :Message):
                         InlineKeyboardButton("🔸 Mᴀɪɴ Cʜᴀɴɴᴇʟ 🔸", url="https://t.me/CxMaxxx"),
                         InlineKeyboardButton("🎲 ᴏᴡɴᴇʀ", url="https://t.me/sachusachuz")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/RequestAutoApprovalbot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/Cxautobot?startgroup")
                     ]
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://telegra.ph/file/b4e6f1b4b96f91bd87418.jpg", caption="** ʜᴇʟʟᴏ {}!\nI'ᴍ ᴀɴ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ [Admin Join Requests]({}) ʙᴏᴛ.\**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+            await m.reply_photo("https://telegra.ph/file/b4e6f1b4b96f91bd87418.jpg", caption="** ʜᴇʟʟᴏ {}!\nI'ᴍ ᴀɴ ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇ [Admin Join Requests]({}) ʙᴏᴛ.**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
                 [
@@ -99,7 +99,7 @@ async def chk(_, cb : CallbackQuery):
                         InlineKeyboardButton("🔸 Mᴀɪɴ Cʜᴀɴɴᴇʟ 🔸", url="https://t.me/CxMaxxx"),
                         InlineKeyboardButton("🎲 ᴏᴡɴᴇʀ", url="https://t.me/sachusachuz")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/RequestAutoApprovalbot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/Cxautobot?startgroup")
                     ]
                 ]
             )
